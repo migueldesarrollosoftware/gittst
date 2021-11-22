@@ -7,37 +7,37 @@ Applied in the "<name_function>" function.
 
 #### The requested parameters for the filter by multiple fields in the /hardware endpoint are
 
+- isDelivery #enter 'true' or 'false' to filter hardware by 'at home | other'
+```
+    filter case example:
+        1. isDelivery=true           // by 'Delivery'
+        2. isDelivery=false          // by 'Hosted'
+```
+- isPSP #enter 'true' or 'false' to filter hardware by 'Premium Service Plan Eligible'
+```
+    filter case example:
+        1. isPSP=true                // by 'Premium Service Plan Eligible'
+        2. isPSP=false               // non-'Premium Service Plan Eligible'
+```
+- compass_finance #enter 'true' or 'false' to filter hardware by 'Payment Plan Eligible'
+```
+    filter case example:
+        1. compass_finance=true     // by Payment Plan Eligible
+        2. compass_finance=false    // by non-Payment Plan Eligible
+```
 - type #enter 'asic' or 'altcoin' separated by "-" to filter hardware by 'ASIC | ALTCOIN'
 ```
     filter case example:
-        1. type=asic                // by asic
-        2. type=asic-alcoin         // by 'asic' and 'altcoin'
-        3. type=alcoitn             // by alcoitn
+        1. type=asic                 // by asic
+        2. type=asic-alcoin          // by 'asic' and 'altcoin'
+        3. type=alcoitn              // by alcoitn
 ```
 - country #enter some 'country' separated by "-" to filter hardware by 'country'
 ```
     filter case example:
-        1. country=USA                 // by USA
-        2. country=USA-Canada          // by 'USA' and 'Canada'
-        3. country=Canada              // by Canada
-```
-- isPSP #enter 'true' or 'false' to filter hardware by 'Premium..........'
-```
-    filter case example:
-        1. isPSP=true               // hardware filter by 'Premium..........'
-        2. isPSP=false              // non-'Premium..........' hardware filter
-```
-- isDelivery #enter 'true' or 'false' to filter hardware by 'at home | other'
-```
-    filter case example:
-        1. isDelivery=true          // hardware filter by 'Premium..........'
-        2. isDelivery=false         // non-'Premium..........' hardware filter
-```
-- compass_finance #enter 'true' or 'false' to filter hardware by 'Plan..........'
-```
-    filter case example:
-        1. compass_finance=true     // by 'Plan..........'
-        2. compass_finance=false    // non-'Premium..........' hardware filter
+        1. country=USA               // by USA
+        2. country=USA-Canada        // by 'USA' and 'Canada'
+        3. country=Canada            // by Canada
 ```
 - online_date #enter interval 'init date' and 'end date' to filter hardware
 ```
@@ -53,7 +53,7 @@ Applied in the "<name_function>" function.
     filter case example:
         1. price=initprice-endprice         // by price range by hardware cost
 ```
--   manufactur_model #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
+- manufactur_model #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
 ```
     notes: 
         - to separate manufacturer use "-"
