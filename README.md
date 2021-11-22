@@ -14,6 +14,13 @@ Applied in the "<name_function>" function.
         2. type=asic-alcoin         // by 'asic' and 'altcoin'
         3. type=alcoitn             // by alcoitn
 ```
+- country #enter some 'country' separated by "-" to filter hardware by 'country'
+```
+    filter case example:
+        1. type=USA                 // by USA
+        2. type=USA-Canada          // by 'USA' and 'Canada'
+        3. type=Canada              // by Canada
+```
 - isPSP #enter 'true' or 'false' to filter hardware by 'Premium..........'
 ```
     filter case example:
