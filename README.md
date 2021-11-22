@@ -4,14 +4,23 @@
 
 This document details how the hardware filters in `/harwadware.helper.js` are applied in the "<name_function>" function.
 
-#### the requested parameters in the /hardware endpoint are:
-
+```
     - type                    #[multiple select] enter 'asic' or 'altcoin' separated by "-" to filter hardware by 'ASIC | ALTCOIN'
         cases:
             1. type=asic          // hardware filter by asic
             2. type=asic-alcoitn  // hardware filter by 'asic' and 'altcoin'
             3. type=alcoitn       // hardware filter by alcoitn
-        
+```
+
+#### the requested parameters in the /hardware endpoint are:
+```
+    - type                    #[multiple select] enter 'asic' or 'altcoin' separated by "-" to filter hardware by 'ASIC | ALTCOIN'
+        cases:
+            1. type=asic          // hardware filter by asic
+            2. type=asic-alcoitn  // hardware filter by 'asic' and 'altcoin'
+            3. type=alcoitn       // hardware filter by alcoitn
+```
+
     - isPSP                   #enter 'true' or 'false' to filter hardware by 'Premium..........'
         cases:
             1. isPSP=true          // hardware filter by 'Premium..........'
