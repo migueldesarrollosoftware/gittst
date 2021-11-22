@@ -17,9 +17,9 @@ Applied in the "<name_function>" function.
 - country #enter some 'country' separated by "-" to filter hardware by 'country'
 ```
     filter case example:
-        1. type=USA                 // by USA
-        2. type=USA-Canada          // by 'USA' and 'Canada'
-        3. type=Canada              // by Canada
+        1. country=USA                 // by USA
+        2. country=USA-Canada          // by 'USA' and 'Canada'
+        3. country=Canada              // by Canada
 ```
 - isPSP #enter 'true' or 'false' to filter hardware by 'Premium..........'
 ```
