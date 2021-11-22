@@ -7,7 +7,7 @@ Applied in the "<name_function>" function.
 
 #### The requested parameters for the filter by multiple fields in the /hardware endpoint are
 
-- isDelivery #enter 'true' or 'false' to filter hardware by 'at home | other'
+- isDelivery #enter 'true' or 'false' to filter hardware by 'Delivery | Hosted'
 ```
     filter case example:
         1. isDelivery=true           // by 'Delivery'
@@ -23,7 +23,7 @@ Applied in the "<name_function>" function.
 ```
     filter case example:
         1. compass_finance=true     // by Payment Plan Eligible
-        2. compass_finance=false    // by non-Payment Plan Eligible
+        2. compass_finance=false    // non-Payment Plan Eligible
 ```
 - type #enter 'asic' or 'altcoin' separated by "-" to filter hardware by 'ASIC | ALTCOIN'
 ```
