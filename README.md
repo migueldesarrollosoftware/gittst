@@ -9,7 +9,7 @@ This document details how the hardware filters in `/hardwadware.helper.js` are a
 ```
     filter case example:
         1. type=asic                // by asic
-        2. type=asic-alcoin        // by 'asic' and 'altcoin'
+        2. type=asic-alcoin         // by 'asic' and 'altcoin'
         3. type=alcoitn             // by alcoitn
 ```
 - isPSP #enter 'true' or 'false' to filter hardware by 'Premium..........'
