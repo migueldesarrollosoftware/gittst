@@ -3,7 +3,7 @@
 ### Hardware filters in hardware.helper
 
 This document details how the hardware filters in `/hardwadware.helper.js` are applied in the "<name_function>" function.
-#### The requested parameters in the /hardware endpoint are
+#### The requested parameters for the filter by multiple fields in the /hardware endpoint are
 
 - type #enter 'asic' or 'altcoin' separated by "-" to filter hardware by 'ASIC | ALTCOIN'
 ```
