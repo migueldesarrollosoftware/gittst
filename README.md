@@ -32,12 +32,12 @@ Applied in the "<name_function>" function.
         2. type=asic-alcoin          // by 'asic' and 'altcoin'
         3. type=alcoitn              // by alcoitn
 ```
-- country #enter some 'country' separated by "-" to filter hardware by 'Facility country'
+- countries #enter some 'countries' separated by "-" to filter hardware by 'Facility country'
 ```
     filter case example:
-        1. country=USA               // by USA
-        2. country=USA-Canada        // by 'USA' and 'Canada' [to add countries, separate with "-"]
-        3. country=Canada            // by Canada
+        1. countries=USA               // by USA
+        2. countries=USA-Canada        // by 'USA' and 'Canada' [to add countries, separate with "-"]
+        3. countries=Canada            // by Canada
 ```
 - online_date #enter interval 'init date' and 'end date' to filter hardware
 ```
