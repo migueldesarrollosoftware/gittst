@@ -17,13 +17,12 @@ This document details how the hardware filters in `/harwadware.helper.js` are ap
         1. isPSP=true          // hardware filter by 'Premium..........'
         2. isPSP=false         // non-'Premium..........' hardware filter
 ```
-    -   compass_finance         #enter 'true' or 'false' to filter hardware by 'Plan..........'
+-   compass_finance         #enter 'true' or 'false' to filter hardware by 'Plan..........'
 ```
     cases:
         1. compass_finance=true          // hardware filter by 'Plan..........'
         2. compass_finance=false         // non-'Premium..........' hardware filter
 ```
-
 -   manufactur_model        #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
 ```
     notes: 
