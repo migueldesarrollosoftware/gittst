@@ -2,7 +2,7 @@
 
 ### Hardware filters in hardware.helper
 
-This document details how the hardware filters in `/hardwadware.helper.js`
+This document details how the hardware filters in `/hardwadware.helper.js`.
 Applied in the "<name_function>" function.
 
 #### The requested parameters for the filter by multiple fields in the /hardware endpoint are
