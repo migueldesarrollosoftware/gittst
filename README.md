@@ -42,23 +42,30 @@ Applied in the "<name_function>" function.
 - online_date #enter interval 'init date' and 'end date' to filter hardware
 ```
     notes:
-        - to separate the interval "-"
+        - use to separate the interval "-"
     filter case example:
         1. online_date=initdate-enddate     // by date range for online_date
 ```
 - price #enter interval 'init price' and 'end price' to filter hardware by 'cost'
 ```
     notes:
-        - to separate the interval "-"
+        - use to separate the interval "-"
     filter case example:
         1. price=initprice-endprice         // by price range by hardware cost
+```
+- hashrate #enter interval 'init hashrate' and 'end hashrate' to filter hardware by 'hashrate'
+```
+    notes:
+        - use to separate the interval "-"
+    filter case example:
+        1. price=inithashrate-endhashrate         // by hashrate range by hardware hashrate
 ```
 - manufacturers_model #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
 ```
     notes: 
-        - to separate manufacturer use "-"
-        - to separate manufacturer and their models use "|"
-        - to separate models from a manufacturer use ":"
+        - use to separate manufacturer "-"
+        - use to separate manufacturer and their models "|"
+        - use to separate models from a manufacturer ":"
 
     filter case example:
         1. manufacturers_model=manufact1                                   // by one manufacturer
