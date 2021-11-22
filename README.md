@@ -32,11 +32,11 @@ Applied in the "<name_function>" function.
         2. type=asic-alcoin          // by 'asic' and 'altcoin'
         3. type=alcoitn              // by alcoitn
 ```
-- country #enter some 'country' separated by "-" to filter hardware by 'country'
+- country #enter some 'country' separated by "-" to filter hardware by 'Facility country'
 ```
     filter case example:
         1. country=USA               // by USA
-        2. country=USA-Canada        // by 'USA' and 'Canada'
+        2. country=USA-Canada        // by 'USA' and 'Canada' [to add countries, separate with "-"]
         3. country=Canada            // by Canada
 ```
 - online_date #enter interval 'init date' and 'end date' to filter hardware
@@ -53,7 +53,7 @@ Applied in the "<name_function>" function.
     filter case example:
         1. price=initprice-endprice         // by price range by hardware cost
 ```
-- manufactur_model #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
+- manufacturers_model #enter manufacturer and its selected models to filter hardware by 'Manufacturer and baseModelName'
 ```
     notes: 
         - to separate manufacturer use "-"
@@ -61,13 +61,13 @@ Applied in the "<name_function>" function.
         - to separate models from a manufacturer use ":"
 
     filter case example:
-        1. manufactur_model=manufact1                                   // by one manufacturer
-        2. manufactur_model=manufact1-manufact2                         // by many manufacturers [to add more manufacturers, separate with "-"]
-        3. manufactur_model=manufact1|xmodel                            // by one manufacturer and one of its models [to add models from a manufacture, separate with "|"]
-        4. manufactur_model=manufact1|xmodel:ymodel                     // by one manufacturer and many of its models [to add more models, separate with ":"]
-        5. manufactur_model=manufact1|xmodel:ymodel-manufact2           // by many manufacturer and many of its models 
-        6. manufactur_model=manufact1|xmodel-manufact2|zmodel           // by one manufacturer and one of its models
-        7. manufactur_model=manufact1|xmodel-manufact2|zmodel:wmodel    // by one manufacturer and many of its models 
+        1. manufacturers_model=manufact1                                   // by one manufacturer
+        2. manufacturers_model=manufact1-manufact2                         // by many manufacturers [to add more manufacturers, separate with "-"]
+        3. manufacturers_model=manufact1|xmodel                            // by one manufacturer and one of its models [to add models from a manufacture, separate with "|"]
+        4. manufacturers_model=manufact1|xmodel:ymodel                     // by one manufacturer and many of its models [to add more models, separate with ":"]
+        5. manufacturers_model=manufact1|xmodel:ymodel-manufact2           // by many manufacturer and many of its models 
+        6. manufacturers_model=manufact1|xmodel-manufact2|zmodel           // by one manufacturer and one of its models
+        7. manufacturers_model=manufact1|xmodel-manufact2|zmodel:wmodel    // by one manufacturer and many of its models 
 ```
 
 
