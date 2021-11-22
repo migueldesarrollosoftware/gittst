@@ -44,7 +44,7 @@ Applied in the "<name_function>" function.
     notes:
         - to separate the interval "-"
     filter case example:
-        1. online_date=initdate-enddate     // by date range for onlinde_date
+        1. online_date=initdate-enddate     // by date range for online_date
 ```
 - price #enter interval 'init price' and 'end price' to filter hardware by 'cost'
 ```
